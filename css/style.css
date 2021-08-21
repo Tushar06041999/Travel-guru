@@ -55,23 +55,28 @@ h1 ,h2,h3{
     color:#333;
 }
 
+/* ************************** section part  */
 
+.first-section{
+    text-align: center;
+    margin-top:220px;
+}
 
+.first-color{
+    color:white;
+    font-size:3.5rem;
+}
 
+.second-color{
+    color:antiquewhite;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.first-btn{
+    padding:10px;
+    width:160px;
+    border-radius:25px;
+    color:tomato;
+}
 
 
 .header{
@@ -83,7 +88,6 @@ h1 ,h2,h3{
 }
 
 .nav-bar{
-    border:2px solid white;
     padding:1rem;
 }
 
@@ -100,11 +104,14 @@ h1 ,h2,h3{
 .header .nav-bar .logo{
     float:left;
     padding:1rem;
+    font-size:2.5rem;
+    margin-left:350px;
     
 }
 .header .nav-bar .nav-items{
     float:right;
     margin-top:1rem;
+    margin-right:100px;
 }
 .header .nav-bar .nav-item{
     display:inline-block;
@@ -116,4 +123,139 @@ h1 ,h2,h3{
     content:"";
     display:block;
     clear:both;
+}
+
+
+
+
+
+
+
+
+/* Conatct Section */
+
+.about-us{
+    margin-top:20px;
+    margin-left:0px;
+    border-bottom:5px solid tomato;
+}
+
+.about-div{
+    text-align:center;
+    margin:0px 20%;
+}
+
+.about-para{
+    margin-left:0px;
+}
+
+
+.paragraph-section{
+    margin:40px;
+    display:inline-block;
+}
+
+.paragraph-section p{
+    margin-left:5px;
+}
+
+.fas fa-check{
+    color:red;
+}
+
+
+.travelled{
+    display:inline-block;
+    margin:50px;
+}
+
+.h1-section{
+    color:tomato;
+    font-size:2.5rem;
+    font-weight:900;
+}
+
+.h3-section{
+    font-weight:900;
+}
+
+.footer{
+    margin-left:0px;
+    display:inline-block;
+}
+.footer .paragraph{
+    margin-left:0px;
+}
+
+#first-footer{
+    height:10%;
+    background: rgba(255, 165, 0, 0.73);
+    box-shadow: #f4f4f4;
+}
+
+#anchor-footer{
+    padding:8px;
+    border:1px solid rgb(255, 238, 238);
+    right:0px;
+}
+
+
+
+
+
+
+/* ********** Contact Details  */
+
+.location-para{
+    border-bottom:4px solid tomato;
+}
+.main-contact{
+    margin:0px 25%;
+    margin-top:50px;
+   
+}
+.contact-detail{
+    display:inline-block;
+  
+}
+
+.contact-image{
+    width:100%;
+}
+
+#first-contact{
+    height:550px;
+    width:350px;
+    margin-right:5px;
+    background-color: #f4f4f4;
+   
+   
+}
+
+#second-contact{
+
+    height:550px;
+    width:350px;
+    margin-left:5px;
+    background-color: #f4f4f4;
+   
+
+}
+
+input{
+    width:100%;
+    padding:8px;
+}
+
+.text-area{
+    width:100%;
+}
+
+.submit-btn{
+    width:30%;
+   
+    background-color: tomato;
+}
+.center-button{
+    text-align:center;
 }
