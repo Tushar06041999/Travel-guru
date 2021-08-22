@@ -259,3 +259,60 @@ input{
 .center-button{
     text-align:center;
 }
+
+
+
+
+/*  Another section part */
+
+
+.main-div{
+    height:800px;
+    margin-top:100px !important;
+    margin:0px 20%;
+    
+}
+.index-div{
+    display:flex;
+    margin-bottom:160px;
+    height: 260px;
+    width:960px;
+
+}
+
+.first-index {
+    margin-right:-7px;
+    padding-left:8px;
+    width:500px;
+    background-color: #ffffff;
+}
+
+.second-index{
+    margin-right:-20px;
+    padding-left:8px;
+    width:500px;
+    background-color: #ffffff;
+}
+
+.second-index-div{
+   display:flex;
+   height:260px;
+   width:960px;
+}
+
+.second-index{
+    float:left;
+}
+.index-image{
+    height:260px;
+    width:500px;
+}
+
+.index-btn{
+    width:76px;
+    margin:2px;
+    border-radius:21px;
+    border-color:tomato;
+    background-color: #ffffff;
+    color:tomato;
+}
